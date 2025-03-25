@@ -6,6 +6,7 @@ import random
 from datetime import timedelta
 from vosk import Model, KaldiRecognizer
 
+# Read README.md first to see how it works !
 # Path To Vosk
 MODEL_PATH = "vosk-model-small-en-us-0.15" # Download from https://alphacephei.com/vosk/models
 
