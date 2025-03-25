@@ -23,7 +23,8 @@ apt-get update && apt-get install -y ffmpeg
 https://ffmpeg.org/download.html
 
 ## 📥 Prepare the Model
-* Download a Vosk model from: alphacephei.com/vosk/models
+* Download a Vosk model from:
+  alphacephei.com/vosk/models
 
 * Extract it into the directory vosk-model-small-en-us-0.15/
 (Or use a different model based on your language)
