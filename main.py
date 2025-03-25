@@ -7,7 +7,7 @@ from datetime import timedelta
 from vosk import Model, KaldiRecognizer
 
 # Path To Vosk
-MODEL_PATH = "vosk-model-small-en-us-0.15"
+MODEL_PATH = "vosk-model-small-en-us-0.15" # Download from https://alphacephei.com/vosk/models
 
 # Check if downloaded model
 if not os.path.exists(MODEL_PATH):
