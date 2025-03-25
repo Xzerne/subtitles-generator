@@ -1,0 +1,4 @@
+vosk==0.3.45
+wave
+srt
+ffmpeg-python
