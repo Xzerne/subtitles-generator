@@ -71,7 +71,7 @@ def transcribe_to_srt(wav_file, model_path, mode="word"):
     with open(srt_file, "w", encoding="utf-8") as f:
         f.write(srt.compose(subtitles))
     
-    print(f"✅ Đã tạo phụ đề: {srt_file}")
+    print(f"Created Subtitles: {srt_file}")
 
 # WAV files to be recognized
 wav_path = "your_wav_video.wav"
